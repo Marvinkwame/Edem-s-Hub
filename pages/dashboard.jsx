@@ -43,6 +43,7 @@ function Dashboard() {
 
   React.useEffect(() => {
     getUser();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, loading]);
 
   return (
