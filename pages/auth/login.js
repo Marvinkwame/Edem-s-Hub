@@ -36,6 +36,7 @@ React.useEffect(() => {
   } else {
     console.log("There is no user")
   }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [])
 
   return (
