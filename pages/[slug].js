@@ -60,6 +60,7 @@ function Details() {
 
     if (!router.isReady) return;
     postComments();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady]);
   // the dependency array is router.isReady because anytime you refresh the comments load immediately
 
